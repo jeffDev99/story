@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>صفحه اصلی | ایران سوق</title>
+  </head>
+  <body>
+    <main>
+      <!--storys-->
+      <section class="pt-4">
+        <div class="container">
+          <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-12 container-overflow">
+              <div class="story-container">
+                <div class="story story-trigger" onclick="startStory(0)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(1)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(2)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(3)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(4)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(5)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(6)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <div class="story story-trigger" onclick="startStory(7)">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                </div>
+                <!-- Add more stories here -->
+              </div>
+
+              <div id="story-popup" class="popup story-container2">
+                <div class="popup-content">
+                  <div class="story-info">
+                  <img src="./img/story.png" class="story-circle" />
+                  <p class="story-text font-semibold mt-8px">یادگیری زبان</p>
+                  </div>
+                  <img
+                    id="popup-image"
+                    class="popup-image"
+                    src=""
+                    alt="Story"
+                  />
+                  <img src="./img/x-close-white.svg" class="close-popup-btn" alt="">
+                  <div class="progress-bar__container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
